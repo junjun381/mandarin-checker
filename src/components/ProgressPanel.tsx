@@ -176,6 +176,18 @@ export function ProgressPanel() {
           ))}
         </div>
       </div>
+      {/* Support link */}
+      <div className="support-card">
+        <p className="support-message">このツールが役に立ちましたか？</p>
+        <a 
+          href="https://ofuse.me/7a2e33c9" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="support-btn"
+        >
+          🐧 開発者を応援する
+        </a>
+      </div>
     </div>
   )
 }

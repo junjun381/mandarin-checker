@@ -89,6 +89,9 @@ export default function App() {
         <button className="privacy-link" onClick={() => setShowPrivacyModal(true)}>
           プライバシーについて
         </button>
+        <a href="https://ofuse.me/7a2e33c9" target="_blank" rel="noopener noreferrer" className="support-link">
+          このツールが役に立ったら応援お願いします 🐧
+        </a>
       </footer>
 
       {showEnvModal && (
